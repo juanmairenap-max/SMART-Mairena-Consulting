@@ -236,4 +236,40 @@ footer {
 .section-dark .card {
   background: #2a3a60;
 }
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+  color: #1e2a45;
+}
+
+section {
+  padding: 100px 0;
+}
+
+.section-dark {
+  background: #1e2a45;
+  color: white;
+}
+
+.section-dark p {
+  max-width: 800px;
+}
+
+.section-light p {
+  max-width: 800px;
+}
+
+h1, h2 {
+  letter-spacing: 0.5px;
+}
+.section-light h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #c6a75e;
+  margin-top: 15px;
+}
+
 
