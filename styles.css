@@ -271,5 +271,26 @@ h1, h2 {
   background: #c6a75e;
   margin-top: 15px;
 }
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.page-hero {
+  background: #eef1f5;
+}
+
+.page-hero p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.section-light p,
+.section-dark p {
+  font-size: 18px;
+}
+
 
 
