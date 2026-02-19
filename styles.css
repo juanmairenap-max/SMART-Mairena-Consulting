@@ -362,6 +362,18 @@ h1, h2 {
   font-size: 16px;
   color: #555;
 }
+.profile-grid {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-top: 60px;
+}
+
+.profile-text h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
 
 
 
