@@ -320,6 +320,31 @@ h1, h2 {
   font-size: 16px;
   color: #555;
 }
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.experience-card {
+  background: #2a3a60;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.experience-card h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.experience-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #e5e7eb;
+}
+
 
 
 
