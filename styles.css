@@ -578,6 +578,17 @@ h2::after {
     font-size: 14px;
 }
 
+.lang-switch {
+    margin-left: 20px;
+    font-weight: 600;
+    color: #C8A951;
+    text-decoration: none;
+}
+
+.lang-switch:hover {
+    color: #0A1F44;
+}
+
 
 
 
