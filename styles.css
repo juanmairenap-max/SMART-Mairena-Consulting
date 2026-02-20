@@ -561,6 +561,23 @@ h2::after {
 .project-card strong {
     color: #C8A951;
 }
+.project-meta {
+    font-size: 14px;
+    color: #C8A951;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.project-results {
+    margin-top: 15px;
+    padding-left: 18px;
+}
+
+.project-results li {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
 
 
 
