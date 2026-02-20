@@ -471,6 +471,27 @@ h2::after {
   background: #c6a75e;
   color: #1e2a45;
 }
+.cta-portfolio {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn-primary {
+    background-color: #0A1F44;
+    color: #ffffff;
+    padding: 14px 28px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.btn-primary:hover {
+    background-color: #C8A951;
+    color: #0A1F44;
+}
+
 
 
 
