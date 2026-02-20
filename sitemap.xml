@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- HOME EN -->
+  <url>
+    <loc>https://juanmairenap-max.github.io/SMART-Mairena-Consulting/</loc>
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://juanmairenap-max.github.io/SMART-Mairena-Consulting/" />
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://juanmairenap-max.github.io/SMART-Mairena-Consulting/es/" />
+    <lastmod>2026-02-19</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- ABOUT -->
+  <url>
+    <loc>https://juanmairenap-max.github.io/SMART-Mairena-Consulting/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://juanmairenap-max.github.io/SMART-Mairena-Consulting/about.html" />
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://juanmairenap-max.github.io/SMART-Mairena-Consulting/es/about.html" />
+    <lastmod>2026-02-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- SERVICES -->
+  <url>
+    <loc>https://juanmairenap-max.github.io/SMART-Mairena-Consulting/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://juanmairenap-max.github.io/SMART-Mairena-Consulting/services.html" />
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://juanmairenap-max.github.io/SMART-Mairena-Consulting/es/services.html" />
+    <lastmod>2026-02-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- PROJECTS -->
+  <url>
+    <loc>https://juanmairenap-max.github.io/SMART-Mairena-Consulting/projects.html</loc>
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://juanmairenap-max.github.io/SMART-Mairena-Consulting/projects.html" />
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://juanmairenap-max.github.io/SMART-Mairena-Consulting/es/projects.html" />
+    <lastmod>2026-02-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- CONTACT -->
+  <url>
+    <loc>https://juanmairenap-max.github.io/SMART-Mairena-Consulting/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://juanmairenap-max.github.io/SMART-Mairena-Consulting/contact.html" />
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://juanmairenap-max.github.io/SMART-Mairena-Consulting/es/contact.html" />
+    <lastmod>2026-02-19</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
