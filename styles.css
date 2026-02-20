@@ -491,6 +491,31 @@ h2::after {
     background-color: #C8A951;
     color: #0A1F44;
 }
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.project-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.section-dark .project-card {
+    background: #1c1c1c;
+    color: #ffffff;
+}
+
 
 
 
