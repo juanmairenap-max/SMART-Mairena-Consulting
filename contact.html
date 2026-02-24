@@ -1,85 +1,91 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact | SMART by Mairena Consulting</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<link rel="alternate" hreflang="en" href="https://juanmairenap-max.github.io/SMART-Mairena-Consulting/about.html" />
-<link rel="alternate" hreflang="es" href="https://juanmairenap-max.github.io/SMART-Mairena-Consulting/es/about.html" />
-<link rel="alternate" hreflang="x-default" href="https://juanmairenap-max.github.io/SMART-Mairena-Consulting/about.html" />
+  <title>Contact | SMART Mairena Consulting</title>
+  <meta name="description" content="Contact SMART Mairena Consulting for consulting inquiries and strategic partnerships across Latin America." />
+  <meta name="robots" content="index, follow" />
 
-<link rel="stylesheet" href="styles.css">
+  <!-- hreflang (must match THIS page) -->
+  <link rel="alternate" hreflang="en" href="https://juanmairenap-max.github.io/SMART-Mairena-Consulting/contact.html" />
+  <link rel="alternate" hreflang="es" href="https://juanmairenap-max.github.io/SMART-Mairena-Consulting/es/contact.html" />
+  <link rel="alternate" hreflang="x-default" href="https://juanmairenap-max.github.io/SMART-Mairena-Consulting/contact.html" />
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TB90HJ6H4X"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Fonts (match the site style) -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
 
-  gtag('config', 'G-TB90HJ6H4X');
-</script>
-  
-<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-<script>
-(function(){
-emailjs.init("YOUR_PUBLIC_KEY");
-})();
-</script>
+  <!-- CSS (cache-buster to avoid old styles) -->
+  <link rel="stylesheet" href="styles.css?v=20260223" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TB90HJ6H4X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TB90HJ6H4X');
+  </script>
+
+  <!-- EmailJS (only if you will configure it with real keys) -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init("YOUR_PUBLIC_KEY");
+    })();
+  </script>
 </head>
 
 <body>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="services.html">Expertise</a>
-  <a href="projects.html">Projects</a>
-  <a href="contact.html">Contact</a>
-</nav>
+  <!-- NAVBAR (same structure as Spanish to keep styling consistent) -->
+  <header class="navbar">
+    <div class="logo">SMART</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Expertise</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+      <a href="es/index.html" class="lang-switch">ES</a>
+    </nav>
+  </header>
 
-<section class="page-header">
+  <section class="page-header">
     <div class="container">
-        <h1>Contact Us</h1>
-        <p>For consulting inquiries and strategic partnerships.</p>
+      <h1>Contact Us</h1>
+      <p>For consulting inquiries and strategic partnerships.</p>
     </div>
-</section>
+  </section>
 
-<section class="contact-form">
+  <section class="contact-form">
     <div class="container">
-
-        <form id="contact-form">
-            <input type="text" name="from_name" placeholder="Full Name" required>
-            <input type="email" name="from_email" placeholder="Email Address" required>
-            <textarea name="message" placeholder="Project Description" required></textarea>
-            <button type="submit" class="btn-primary">Send Message</button>
-        </form>
-
+      <form id="contact-form">
+        <input type="text" name="from_name" placeholder="Full Name" required />
+        <input type="email" name="from_email" placeholder="Email Address" required />
+        <textarea name="message" placeholder="Project Description" required></textarea>
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
     </div>
-</section>
+  </section>
 
-<script>
-document.getElementById('contact-form')
-.addEventListener('submit', function(event) {
-event.preventDefault();
+  <script>
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+      event.preventDefault();
 
-emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
-.then(function() {
-alert('Message Sent Successfully');
-}, function(error) {
-alert('Error sending message');
-});
-});
-</script>
+      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+        .then(function() {
+          alert('Message sent successfully.');
+        }, function() {
+          alert('Error sending message. Please try again.');
+        });
+    });
+  </script>
 
-<footer>
+  <footer>
     <p>© 2026 SMART Mairena Consulting</p>
-</footer>
+  </footer>
 
 </body>
 </html>
-
-
-
-
